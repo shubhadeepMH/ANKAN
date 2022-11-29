@@ -1,0 +1,179 @@
+*{
+  background-color: rgb(236, 229, 229);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+.App{
+  display: flex;
+}
+.image{
+   
+  height: 100vh;
+  width: 85%;
+ text-align: center;
+ margin-right: 6rem;
+ 
+}
+.slider{
+ margin-top: 9.5rem;
+  display: block;
+ 
+}
+.fileInput{
+ position: absolute;
+ left: 20px;
+ 
+ 
+}
+.fileInput input{
+  border: 1px solid black;
+}
+.download:hover{
+
+  background-color: aliceblue;
+  box-shadow:1px 1px 1px rgb(17, 23, 26);
+  background-color:rgb(142, 245, 129) ;
+  
+}
+.download{
+  position: relative;
+  left: 15rem;
+  height: 1.5rem;
+  
+  flex-direction: coloumn;
+  width: 7rem;
+  border-radius: 1rem;
+ 
+  
+  
+}
+
+.fileInput>span{
+  transition: width 2s, height 4s;
+  
+}
+.fileInput>input{
+ border-top-right-radius: 1rem;
+ border-bottom-right-radius: 1rem;
+  
+}
+
+.slider>input{
+  width: 20rem;
+}
+.navbar{
+  display: flex;
+  font-size: larger;
+  
+
+}
+.titleWord{
+ 
+  display: flex;
+  position: absolute;
+  top: 50vh;
+  left: 3rem;
+ 
+  
+}
+.titleWord>p{
+  background: -webkit-linear-gradient(rgb(236, 119, 230), rgb(132, 200, 24));
+  background: linear-gradient(
+    to right, #f32170, #ff6b08,
+     #cf23cf, #eedd44);
+    
+
+ font-size: 2rem;
+}
+.titleWord p span{
+ margin-left: 1rem;
+ font-size: larger;
+ text-shadow: 2px 1px #ff0000;
+}
+.navbar>p{
+  margin-left: 4rem;
+  margin-top: 1rem;
+
+  display: block;
+  height: 2rem;
+  width: 6rem;
+ 
+  font-weight: 00;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.navbar>img{
+  height: 3rem;
+  width: 3rem;
+  position: absolute;
+  top: 1rem;
+  margin-left: .5rem;
+  
+}
+.downloadImg{
+  background: transparent;
+  scale: 2;
+  padding: 1px;
+  margin-top: 3px;
+}
+img{
+      height: 65%;
+      width: 35%;
+      border: 1px solid rgb(234, 86, 111);
+      margin-top: 1rem;
+     
+     
+      
+      position: relative;
+      top: 43%;
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+     
+      
+      
+}
+.slider>.slideChange{
+ position: relative;
+ left: 4rem;
+}
+.optionButton{
+ 
+    background-color:rgb(242, 167, 70);
+    width: 100%;
+    height: 3rem;
+    /* border-radius: 1rem; */
+    margin-top: .5rem;
+    border: none;
+    font-size: larger;
+    border-radius: 1rem;
+    color: black;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+span{
+  padding-bottom:10px ;
+  margin-right:4px ;
+  font-size: larger;
+
+}
+.optionButton:hover{
+    background-color: rgb(245, 109, 215);
+    border-bottom: 2px solid black;
+    
+}
+.optionButton.active {
+  background-color: hsl(265, 100%, 70%);
+  border-bottom: 3px solid green;
+}
+
+.optionPannel{
+  background-color: rgb(250, 209, 159);
+  margin-right: 4px;
+  height: 100vh;
+  width: 15%;
+  border-left: 2px solid rgb(52, 52, 117);
+  
+}
